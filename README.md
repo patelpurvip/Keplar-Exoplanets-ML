@@ -3,6 +3,7 @@
 The exercise was based on data collected on potential planets outside of our Solar System ("exoplanets").  Over a period of nine years in deep space, the NASA Kepler space telescope conducted a planet-hunting mission to discover hidden planets outside of our solar system. The resulting dataset includes data on objects considered potential candidates for exoplanet classification, with information on various features that could be used to determine it's candidacy as an exoplanet, as wellas the final classification. The purpose of this assignment was to create machine learning models capable of classifying candidate exoplanets from the raw dataset by evaluating data collected during this period. 
 
 Data Source: https://www.kaggle.com/nasa/kepler-exoplanet-search-results
+
 Further information on the Keplar data is available at: https://exoplanetarchive.ipac.caltech.edu/docs/API_kepcandidate_columns.html#pdisposition
 
 Steps for creating the models:
@@ -47,7 +48,7 @@ The results after using GridSearchCV to tune the model's parameters show more no
 0.8331108144192256
 
 -------------------------------------------------
-Model 3
+Model 3 All Data Fields
 
 The final model included all of the data from the data set, without eliminating any of the columns, essentially restoring the err1 and err2 columns.  This noticeably improved the accuracy of the model.
 
