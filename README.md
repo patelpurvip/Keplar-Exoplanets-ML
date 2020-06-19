@@ -2,29 +2,28 @@
 
 The exercise was based on data collected on potential planets outside of our Solar System ("exoplanets").  Over a period of nine years in deep space, the NASA Kepler space telescope conducted a planet-hunting mission to discover hidden planets outside of our solar system. The resulting dataset includes data on objects considered potential candidates for exoplanet classification, with information on various features that could be used to determine it's candidacy as an exoplanet, as wellas the final classification. The purpose of this assignment was to create machine learning models capable of classifying candidate exoplanets from the raw dataset by evaluating data collected during this period. 
 
-Further information on the dataset is available at: https://www.kaggle.com/nasa/kepler-exoplanet-search-results
+Data Source: https://www.kaggle.com/nasa/kepler-exoplanet-search-results
+Further information on the Keplar data is available at: https://exoplanetarchive.ipac.caltech.edu/docs/API_kepcandidate_columns.html#pdisposition
 
 Steps for creating the models:
-
 1. Preprocessing the raw data (Preprocessing)
 2. Tuning the models 
 3. Comparing the models
 
 ### 1) Preprocessing the Data
-
 * Preprocessing the dataset prior to fitting the model.
 * Performing feature selection and remove unnecessary features.
 * Using `MinMaxScaler` (initially) to scale the numerical data.
 * Separating the data into training and testing data.
 
 ### 2) Tuning Model Parameters
-
 * Useing `GridSearch` to tune model parameters.
 * Tuning and comparing at least two different classifiers.
 
 ### 3) Model Comparison
 
 Model-1 SVM
+
 After reading in the data, I had to decide which features to keep for the model.  For the initial model, I decided to eliminate err1 and err2 columns for all features, and keep just the initial data column for each feature (period, time, impact, duration, depth, etc). After that, I assigned x and y values for the model, and then split the data into "train" and "test" subsets.  The data were then scaled and normalized to improve accuracy, with smaller gaps between data points (i.e. adjusting the weighting of each point) within the model. Lastly, GridSearchCV was used to tune the model's parameters.
 
 Initial results
@@ -38,6 +37,7 @@ The GridSearchCV tuning did improve the accuracy of the model a bit, but the mod
 
 -----------------------------------------------
 Model 2 Linear Regression
+
 The data cleaning and preprocessing steps were the same as for model 1.  In this model, StandardScaler was used to scale and onrmalize the data instead of MinMaxScaler, with slightly better results.
 
 Training Data Score: 0.8247186725157353
@@ -48,6 +48,7 @@ The results after using GridSearchCV to tune the model's parameters show more no
 
 -------------------------------------------------
 Model 3
+
 The final model included all of the data from the data set, without eliminating any of the columns, essentially restoring the err1 and err2 columns.  This noticeably improved the accuracy of the model.
 
 Training Data Score: 0.8922372687392714
