@@ -23,7 +23,7 @@ Steps for creating the models:
 
 ### 3) Model Comparison
 
-Model-1 SVM
+Model 1 SVM
 
 After reading in the data, I had to decide which features to keep for the model.  For the initial model, I decided to eliminate err1 and err2 columns for all features, and keep just the initial data column for each feature (period, time, impact, duration, depth, etc). After that, I assigned x and y values for the model, and then split the data into "train" and "test" subsets.  The data were then scaled and normalized to improve accuracy, with smaller gaps between data points (i.e. adjusting the weighting of each point) within the model. Lastly, GridSearchCV was used to tune the model's parameters.
 
