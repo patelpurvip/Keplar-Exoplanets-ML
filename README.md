@@ -1,6 +1,6 @@
 # machine-learning-challenge
 
-The exercise was based on data collected on potential planets outside of our Solar System ("exoplanets").  Over a period of nine years in deep space, the NASA Kepler space telescope conducted a planet-hunting mission to discover hidden planets outside of our solar system. The resulting dataset includes data on objects considered potential candidates for exoplanet classification, with information on various features that could be used to determine it's candidacy as an exoplanet, as well as the final classification. The purpose of this exercise was to create machine learning models capable of classifying candidate exoplanets from the raw dataset by evaluating data collected during this period. 
+This exercise was based on data collected on potential planets outside of our Solar System ("exoplanets").  Over a period of nine years in deep space, the NASA Kepler space telescope conducted a planet-hunting mission to discover hidden planets outside of our solar system. The resulting dataset includes data on objects considered potential candidates for exoplanet classification, with information on various features that could be used to determine it's candidacy as an exoplanet, as well as the final classification. The purpose of this exercise was to create machine learning models capable of classifying candidate exoplanets from the raw dataset by evaluating data collected during this period. 
 
 Data Source: https://www.kaggle.com/nasa/kepler-exoplanet-search-results
 
