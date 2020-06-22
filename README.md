@@ -60,5 +60,5 @@ Results after using GridSearchCV to tune the model's parameters only showed slig
 
 -------------------------------------------------
 CONCLUSION:
-Model 3 produced the best restults, with the performance after tuning with GridSearchCV being the best, but not significantly better than the initial model.  For all three models, changing the grid parameters for C and gamma values did not produce any score improvement.
+Model 3 produced the best results, with the performance after tuning with GridSearchCV being the best, but not significantly better than the initial model.  For all three models, changing the grid parameters for C and gamma values did not produce any score improvement.
 
