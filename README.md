@@ -7,7 +7,7 @@ Data Source: https://www.kaggle.com/nasa/kepler-exoplanet-search-results
 Further information on the Keplar data, including a glossary of the individual features, is available at: https://exoplanetarchive.ipac.caltech.edu/docs/API_kepcandidate_columns.html#pdisposition
 
 Steps for creating the models:
-1. Preprocessing the raw data (Preprocessing)
+1. Preprocessing the raw data
 2. Tuning the models 
 3. Comparing the models
 
