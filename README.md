@@ -39,7 +39,7 @@ GridSearchCV tuning
 The GridSearchCV tuning did improve the accuracy of the model a bit, but the model seemed to have some space for improvement. 
 
 -----------------------------------------------
-Model 2 
+Model 2 Logistic Regression
 
 The data cleaning and preprocessing steps were the same as for model 1.  In this model, StandardScaler was used to scale and onrmalize the data instead of MinMaxScaler, with slightly better results.
 
