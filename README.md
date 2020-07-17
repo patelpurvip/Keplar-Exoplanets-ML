@@ -1,4 +1,4 @@
-# machine-learning-challenge - Keplar Exoplanet Exploration
+# Keplar Exoplanet Exploration - machine learning
 
 ![exoplanets.jpg](Images/exoplanets.jpg)
 
