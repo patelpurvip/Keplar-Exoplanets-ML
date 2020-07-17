@@ -64,5 +64,3 @@ Results after using GridSearchCV to tune the model's parameters only showed slig
 CONCLUSION:
 Model 3 produced the best results, with the performance after tuning with GridSearchCV being the best, but not significantly better than the initial model.  For all three models, changing the grid parameters for C and gamma values did not produce any score improvement.
 
-
-**Exercise designed by © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.**
